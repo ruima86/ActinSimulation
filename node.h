@@ -5,6 +5,10 @@
 //  Created by Rui Ma on 1/7/15.
 //  Copyright (c) 2015 Rui Ma. All rights reserved.
 //
+#ifndef NODE_H
+#define NODE_H
+
+
 #include "filament.h"
 
 class node
@@ -17,9 +21,16 @@ class node
     int index2;
     node* prior;
     node* next;
-    node();
+    node()
+    {
+        s1=0;
+        s2=0;
+        next=0;
+    };
 };
 
 typedef node *BiList;
+
+#endif
 
 
