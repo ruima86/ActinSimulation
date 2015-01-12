@@ -12,6 +12,6 @@ Class file defining the object filament
 mvnrnd.h:
 functions to generate multi-dimensional random numbers of Guassian distribution.
 
-BiListConnection.h:
+node.h:
 Class file defining the object Connection which is to model the cross.
 
